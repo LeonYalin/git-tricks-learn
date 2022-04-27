@@ -6,6 +6,8 @@ function gitAdvancedSnippets() {
 
     - via the package manager, e.g. "apt install nginx"
     - build from sources.
+    - add a secomd row
+    - add a third row
     `);
 }
 
