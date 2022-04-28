@@ -7,6 +7,9 @@ function gitAdvancedSnippets() {
     - use "git log --oneline" to view only the commit messages in the log.
     - to change (amend) the last commit, change the code, then use "git commit -a --amend --no-edit". Use -m "new message" co change the commit message.
     - use "git reset --hard HEAD~1" to reset the branch one commit back
+    - use "git add -p file_name" to make a partial commit with only specific lines (-p stands for patch)
+    - use "git commit" to specify both the commit message and body, separated by new line.
+    - use "git mergetool" to configure and use a custom merge tool of our choice.
     
     Interactive rebase
     - use "git rebase -i HEAD~3" to rebase 3 commits back
