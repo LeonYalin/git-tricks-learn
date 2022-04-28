@@ -40,6 +40,13 @@ function gitAdvancedSnippets() {
     - this action will also add a .gitmodules file containing add the info about the submodules in the project. This will also update the .git/config file as well.
     - initially, when cloning a project the submodules folders are empty. To pull the modules code, use "git submodule update --init --recursive"
     - alternatively, use "git clone -recurse-submodules git_url" to seed the submodules when cloning the repo
+
+    Search & Filter
+    - use "git log --after="2021-7-1" --before="2021-7-5" to filter by dates
+    - use "git log --author="lyalin" to search by author
+    - use "git log --grep="my message" to search by words
+    - use "git log -- filename.ext" to show all changes for a specific file
+    - use "git log fist_branch..second_branch" to view commits that present in second_branch but not in first_branch
     `);
 }
 
